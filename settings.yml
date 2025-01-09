@@ -1,0 +1,16 @@
+features:
+  input_sanitization: true
+  prompt_classification: true
+  personality_alignment_check: true
+  ethical_compliance_check: true
+  response_validation: true
+  logging: true
+
+logging:
+  log_file: "logs/prompt_logs.txt"
+  log_level: "INFO"  
+
+security:
+  max_prompt_length: 500
+  block_malicious_prompts: true
+  block_manipulation_attempts: true 
